@@ -1,129 +1,109 @@
-
-:root {
-    --nord-0: #2e3440;
-    --nord-1: #3b4252;
-    --nord-2: #434c5e;
-    --nord-3: #4c566a;
-    --nord-4: #d8dee9;
-    --nord-5: #e5e9f0;
-    --nord-6: #eceff4;
-    --nord-7: #8fbcbb;
-    --nord-8: #88c0d0;
-    --nord-9: #81a1c1;
-    --nord-10: #5e81ac;
-    --nord-11: #bf616a;
-    --nord-12: #d08770;
-    --nord-13: #ebcb8b;
-    --nord-14: #a3be8c;
-    --nord-15: #b48ead;
-}
-
 .asciinema-theme-nord .asciinema-terminal {
-    color: var(--nord-4);                    /* default text color */
-    background-color: var(--nord-0);         /* terminal background color */
-    border-color: var(--nord-0);
+  color: #d8dee9;
+  background-color: #2e3440;
+  border-color: #2e3440;
 }
-.asciinema-theme-nord .fg-bg {    /* inverse for default text color */
-    color: var(--nord-0);
+.asciinema-theme-nord .fg-bg {
+  color: #2e3440;
 }
-.asciinema-theme-nord .bg-fg {    /* inverse for terminal background color */
-    background-color: var(--nord-4);
+.asciinema-theme-nord .bg-fg {
+  background-color: #d8dee9;
 }
 .asciinema-theme-nord .fg-0 {
-    color: var(--nord-0);
+  color: #2e3440;
 }
 .asciinema-theme-nord .bg-0 {
-    background-color: var(--nord-0);
+  background-color: #2e3440;
 }
 .asciinema-theme-nord .fg-1 {
-    color: var(--nord-11);
+  color: #bf616a;
 }
 .asciinema-theme-nord .bg-1 {
-    background-color: var(--nord-11);
+  background-color: #bf616a;
 }
 .asciinema-theme-nord .fg-2 {
-    color: var(--nord-14);
+  color: #a3be8c;
 }
 .asciinema-theme-nord .bg-2 {
-    background-color: var(--nord-8);
+  background-color: #88c0d0;
 }
 .asciinema-theme-nord .fg-3 {
-    color: var(--nord-13);
+  color: #ebcb8b;
 }
 .asciinema-theme-nord .bg-3 {
-    background-color: var(--nord-12);
+  background-color: #d08770;
 }
 .asciinema-theme-nord .fg-4 {
-    color: var(--nord-9);
+  color: #81a1c1;
 }
 .asciinema-theme-nord .bg-4 {
-    background-color: var(--nord-10);
+  background-color: #5e81ac;
 }
 .asciinema-theme-nord .fg-5 {
-    color: var(--nord-11);
+  color: #bf616a;
 }
 .asciinema-theme-nord .bg-5 {
-    background-color: var(--nord-15);
+  background-color: #b48ead;
 }
 .asciinema-theme-nord .fg-6 {
-    color: var(--nord-8);
+  color: #88c0d0;
 }
 .asciinema-theme-nord .bg-6 {
-    background-color: var(--nord-8);
+  background-color: #88c0d0;
 }
 .asciinema-theme-nord .fg-7 {
-    color: var(--nord-4);
+  color: #d8dee9;
 }
 .asciinema-theme-nord .bg-7 {
-    background-color: var(--nord-4);
+  background-color: #d8dee9;
 }
 .asciinema-theme-nord .fg-8 {
-    color: var(--nord-1);
+  color: #3b4252;
 }
 .asciinema-theme-nord .bg-8 {
-    background-color: var(--nord-2);
+  background-color: #434c5e;
 }
 .asciinema-theme-nord .fg-9 {
-    color: var(--nord-11);
+  color: #bf616a;
 }
 .asciinema-theme-nord .bg-9 {
-    background-color: var(--nord-11);
+  background-color: #bf616a;
 }
 .asciinema-theme-nord .fg-10 {
-    color: var(--nord-14);
+  color: #a3be8c;
 }
 .asciinema-theme-nord .bg-10 {
-    background-color: var(--nord-8);
+  background-color: #88c0d0;
 }
 .asciinema-theme-nord .fg-11 {
-    color: var(--nord-13);
+  color: #ebcb8b;
 }
 .asciinema-theme-nord .bg-11 {
-    background-color: var(--nord-12);
+  background-color: #d08770;
 }
 .asciinema-theme-nord .fg-12 {
-    color: var(--nord-10);
+  color: #5e81ac;
 }
 .asciinema-theme-nord .bg-12 {
-    background-color: var(--nord-10);
+  background-color: #5e81ac;
 }
 .asciinema-theme-nord .fg-13 {
-    color: var(--nord-15);
+  color: #b48ead;
 }
 .asciinema-theme-nord .bg-13 {
-    background-color: var(--nord-15);
+  background-color: #b48ead;
 }
 .asciinema-theme-nord .fg-14 {
-    color: var(--nord-8);
+  color: #88c0d0;
 }
 .asciinema-theme-nord .bg-14 {
-    background-color: var(--nord-8);
+  background-color: #88c0d0;
 }
 .asciinema-theme-nord .fg-15 {
-    color: var(--nord-5);
+  color: #e5e9f0;
 }
 .asciinema-theme-nord .bg-15 {
-    background-color: var(--nord-5);
+  background-color: #e5e9f0;
 }
 .asciinema-theme-nord .fg-8,
 .asciinema-theme-nord .fg-9,
@@ -133,5 +113,5 @@
 .asciinema-theme-nord .fg-13,
 .asciinema-theme-nord .fg-14,
 .asciinema-theme-nord .fg-15 {
-    font-weight: bold;
+  font-weight: bold;
 }
